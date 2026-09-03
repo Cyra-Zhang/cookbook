@@ -1,38 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>我的厨房计划</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>个人厨房助手</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="hero">
-<h1>🍚 我的厨房计划</h1>
-<p>一个人的一周晚餐｜盖浇饭优先</p>
+<header>
+<h1>🍚 个人厨房助手</h1>
+<p>一人份 · 一周计划 · 详细步骤版</p>
 </header>
-
 <nav>
-<span>🍳 做菜</span>
-<span>📖 菜谱</span>
-<span>🧺 我的库存</span>
+<span>🏠首页</span><span>🍱菜谱</span><span>🥬库存</span><span>📅计划</span>
 </nav>
-
-<section class="today">
-<h2>🌟 今天吃什么</h2>
-<div id="recommend"></div>
+<section class="hero">
+<h2>🌟 今天推荐</h2>
+<p>打开菜谱卡片，按步骤做就可以。</p>
 </section>
-
-<section>
-<h2>🥬 按食材找菜</h2>
 <div id="tags"></div>
-</section>
-
-<section>
-<h2>🍱 菜谱库</h2>
-<div id="recipes"></div>
-</section>
-
+<main id="app"></main>
 <script src="app.js"></script>
 </body>
 </html>
