@@ -1,28 +1,94 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>厨房</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>个人厨房助手 · 高级版</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="orb o1"></div><div class="orb o2"></div>
-<div class="app">
-<header class="glass hero">
-<div class="small">TODAY'S MEAL</div>
-<h1>厨房</h1>
-<p>今天吃什么？</p>
-</header>
+  <div class="bg-orb orb1"></div>
+  <div class="bg-orb orb2"></div>
+  <div class="bg-orb orb3"></div>
 
-<div class="glass nav">
-<button>📅 周计划</button>
-<button>🥬 食材</button>
-<button>🧺 冰箱</button>
-</div>
+  <div class="app-shell">
+    <header class="glass hero-card" id="top">
+      <div class="hero-row">
+        <div>
+          <p class="eyebrow">One-Person Meal Planner</p>
+          <h1>🍚 个人厨房助手</h1>
+          <p class="hero-sub">按你的表格做成的高级版菜谱网页：一人份、详细步骤、可交互。</p>
+        </div>
+        <div class="hero-badges">
+          <span class="soft-pill" id="countRecipes">11 道菜</span>
+          <span class="soft-pill" id="countIngredients">0 种食材</span>
+        </div>
+      </div>
 
-<main id="app"></main>
-</div>
-<script src="app.js"></script>
+      <div class="glass inner-glass hero-recommend" id="todayCard">
+        <div>
+          <div class="mini-label">今日推荐</div>
+          <div class="recommend-title" id="todayTitle">蒜香土豆鸡翅根盖浇饭 + 蒜蓉菠菜</div>
+          <div class="recommend-meta" id="todayMeta">周四 · 晚饭 · 30分钟</div>
+        </div>
+        <div class="hero-actions">
+          <button class="action-button primary" id="openTodayBtn">查看步骤</button>
+          <button class="action-button ghost" id="randomBtn">换一道</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="toolbar glass">
+      <div class="segmented" role="tablist" aria-label="浏览方式">
+        <button class="seg-btn active" data-mode="day">按日期浏览</button>
+        <button class="seg-btn" data-mode="ingredient">按食材浏览</button>
+      </div>
+
+      <div class="search-row">
+        <div class="search-box glass inner-glass">
+          <span>🔎</span>
+          <input id="searchInput" type="text" placeholder="搜索菜名，例如：鸡翅根、盖饭、西兰花">
+        </div>
+      </div>
+
+      <div class="quick-filters">
+        <button class="chip quick-chip" data-quick="all">全部</button>
+        <button class="chip quick-chip" data-quick="meat">今晚想吃肉</button>
+        <button class="chip quick-chip" data-quick="fast">30分钟左右</button>
+        <button class="chip quick-chip" data-quick="bowl">盖饭/焖饭</button>
+        <button class="chip quick-chip" data-quick="favorites">我的收藏</button>
+      </div>
+
+      <div id="selectorWrap"></div>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">MEAL LIBRARY</p>
+        <h2 id="sectionTitle">全部菜谱</h2>
+      </div>
+      <div class="view-hint">点卡片看详细步骤，所有按钮都可以操作</div>
+    </section>
+
+    <main id="cardGrid" class="card-grid"></main>
+  </div>
+
+  <div class="bottom-nav glass">
+    <button class="nav-item active" data-nav="home"><span>🏠</span><em>首页</em></button>
+    <button class="nav-item" data-nav="day"><span>📅</span><em>日期</em></button>
+    <button class="nav-item" data-nav="ingredient"><span>🥬</span><em>食材</em></button>
+    <button class="nav-item" data-nav="favorites"><span>💛</span><em>收藏</em></button>
+    <button class="nav-item" data-nav="reset"><span>✨</span><em>全部</em></button>
+  </div>
+
+  <div id="detailModal" class="modal hidden" aria-hidden="true">
+    <div class="modal-mask" id="closeModalMask"></div>
+    <div class="modal-sheet glass">
+      <button class="close-btn" id="closeModalBtn">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>

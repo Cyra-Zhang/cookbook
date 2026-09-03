@@ -1,39 +1,428 @@
 [
   {
-    "title": "蒜香土豆鸡翅根盖浇饭",
-    "time": "30分钟",
-    "day": "周四晚",
-    "image": "🍗🥔🍚",
-    "ingredients": [
+    "id": 1,
+    "date": "日期",
+    "weekday": "日期",
+    "meal": "餐次",
+    "title": "菜名",
+    "ingredients_text": "一人份食材用量",
+    "ingredients_list": [
+      "一人份食材用量"
+    ],
+    "filter_ingredients": [
+      "一人食材用量"
+    ],
+    "steps_text": "详细做法",
+    "steps_list": [
+      "详细做法"
+    ],
+    "time": "耗时",
+    "prep": "备菜建议",
+    "sort_order": 1,
+    "weekday_order": 99,
+    "visual": "🍚✨🥗",
+    "palette": [
+      "#F8C28A",
+      "#E98B5B",
+      "#7C4A34"
+    ],
+    "is_meaty": false,
+    "is_quick": false,
+    "is_rice_bowl": false
+  },
+  {
+    "id": 2,
+    "date": "周四",
+    "weekday": "周四",
+    "meal": "晚饭",
+    "title": "蒜香土豆鸡翅根盖浇饭 + 蒜蓉菠菜",
+    "ingredients_text": "鸡翅根3个（约180g）、土豆半个-1个、菠菜100g、大蒜、米饭",
+    "ingredients_list": [
+      "鸡翅根3个（约180g）",
+      "土豆半个-1个",
+      "菠菜100g",
+      "大蒜",
+      "米饭"
+    ],
+    "filter_ingredients": [
       "鸡翅根",
       "土豆",
       "菠菜",
+      "大蒜",
       "米饭"
     ],
-    "steps": [
-      "鸡翅根划刀并腌制",
-      "煎至表面金黄",
-      "加入蒜末和小米辣",
-      "加入土豆焖煮",
-      "收汁后浇饭"
-    ]
+    "steps_text": "1、鸡翅根划刀，加生抽、蚝油、盐和一点油腌10分钟\n2、锅中少油煎至金黄，加蒜和小米辣炒香\n3、加生抽、蚝油、酱油和150ml水\n4、放土豆焖15-20分钟，收汁后浇饭\n5、菠菜焯水后蒜蓉快炒",
+    "steps_list": [
+      "1、鸡翅根划刀，加生抽、蚝油、盐和一点油腌10分钟\n2、锅中少油煎至金黄，加蒜和小米辣炒香\n3、加生抽、蚝油、酱油和150ml水\n4、放土豆焖15-20分钟，收汁后浇饭\n5、菠菜焯水后蒜蓉快炒"
+    ],
+    "time": "30分钟",
+    "prep": "剩余3个鸡翅根留周六使用",
+    "sort_order": 2,
+    "weekday_order": 4,
+    "visual": "🍗🥔🍚",
+    "palette": [
+      "#DCCBFF",
+      "#A58DFF",
+      "#5F4DAA"
+    ],
+    "is_meaty": true,
+    "is_quick": true,
+    "is_rice_bowl": true
   },
   {
+    "id": 3,
+    "date": "周五",
+    "weekday": "周五",
+    "meal": "晚饭",
     "title": "猪肉丝鸡蛋盖饭",
-    "time": "25分钟",
-    "day": "周五晚",
-    "image": "🥩🥚🍚",
-    "ingredients": [
+    "ingredients_text": "猪肉丝100g、鸡蛋1-2个、米饭",
+    "ingredients_list": [
+      "猪肉丝100g",
+      "鸡蛋1-2个",
+      "米饭"
+    ],
+    "filter_ingredients": [
       "猪肉丝",
       "鸡蛋",
       "米饭"
     ],
-    "steps": [
-      "腌制肉丝",
-      "炒鸡蛋",
-      "炒肉丝",
-      "混合调味",
-      "盖饭"
-    ]
+    "steps_text": "1、猪肉丝加生抽和油腌5分钟\n2、鸡蛋炒熟盛出\n3、炒肉丝至变色，加蒜末、生抽、蚝油调味\n4、加入鸡蛋翻匀后盖饭",
+    "steps_list": [
+      "1、猪肉丝加生抽和油腌5分钟\n2、鸡蛋炒熟盛出\n3、炒肉丝至变色，加蒜末、生抽、蚝油调味\n4、加入鸡蛋翻匀后盖饭"
+    ],
+    "time": "25分钟",
+    "prep": "猪肉丝当天用完",
+    "sort_order": 3,
+    "weekday_order": 5,
+    "visual": "🥩🥚🍚",
+    "palette": [
+      "#FFD5CC",
+      "#FF9375",
+      "#A84843"
+    ],
+    "is_meaty": true,
+    "is_quick": true,
+    "is_rice_bowl": true
+  },
+  {
+    "id": 4,
+    "date": "周六",
+    "weekday": "周六",
+    "meal": "午饭",
+    "title": "番茄肉丝鸡蛋盖饭 + 蒜蓉西兰花",
+    "ingredients_text": "大番茄半个-1个、猪肉丝（如有剩余）、鸡蛋1个、西兰花",
+    "ingredients_list": [
+      "大番茄半个-1个",
+      "猪肉丝（如有剩余）",
+      "鸡蛋1个",
+      "西兰花"
+    ],
+    "filter_ingredients": [
+      "番茄",
+      "猪肉丝",
+      "鸡蛋",
+      "西兰花"
+    ],
+    "steps_text": "1、番茄切块炒出汁\n2、肉丝炒熟后加入番茄，加生抽、蚝油调味\n3、加入鸡蛋翻匀浇饭\n4、西兰花焯水后蒜蓉炒",
+    "steps_list": [
+      "1、番茄切块炒出汁\n2、肉丝炒熟后加入番茄，加生抽、蚝油调味\n3、加入鸡蛋翻匀浇饭\n4、西兰花焯水后蒜蓉炒"
+    ],
+    "time": "35分钟",
+    "prep": "大番茄切开后尽量当天用完",
+    "sort_order": 4,
+    "weekday_order": 6,
+    "visual": "🍅🥩🥚",
+    "palette": [
+      "#CDEDD6",
+      "#78C2A4",
+      "#306A57"
+    ],
+    "is_meaty": true,
+    "is_quick": false,
+    "is_rice_bowl": true
+  },
+  {
+    "id": 5,
+    "date": "周六",
+    "weekday": "周六",
+    "meal": "晚饭",
+    "title": "剩余鸡翅根 + 土豆片 + 番薯叶",
+    "ingredients_text": "鸡翅根3个、土豆半个、番薯叶",
+    "ingredients_list": [
+      "鸡翅根3个",
+      "土豆半个",
+      "番薯叶"
+    ],
+    "filter_ingredients": [
+      "鸡翅根",
+      "土豆",
+      "番薯叶"
+    ],
+    "steps_text": "1、鸡翅根加热收汁即可\n2、土豆切片炒软，加蒜和小米辣调味\n3、番薯叶洗净后用蒜、生抽、少量油凉拌",
+    "steps_list": [
+      "1、鸡翅根加热收汁即可\n2、土豆切片炒软，加蒜和小米辣调味\n3、番薯叶洗净后用蒜、生抽、少量油凉拌"
+    ],
+    "time": "30分钟",
+    "prep": "番薯叶提前洗净晾干",
+    "sort_order": 5,
+    "weekday_order": 6,
+    "visual": "🍗🥔🍚",
+    "palette": [
+      "#D8F0FF",
+      "#88C6FF",
+      "#315E9F"
+    ],
+    "is_meaty": true,
+    "is_quick": true,
+    "is_rice_bowl": false
+  },
+  {
+    "id": 6,
+    "date": "周日",
+    "weekday": "周日",
+    "meal": "午饭",
+    "title": "菠菜鸡蛋西兰花盖饭",
+    "ingredients_text": "菠菜、西兰花、鸡蛋2个、米饭",
+    "ingredients_list": [
+      "菠菜",
+      "西兰花",
+      "鸡蛋2个",
+      "米饭"
+    ],
+    "filter_ingredients": [
+      "菠菜",
+      "西兰花",
+      "鸡蛋",
+      "米饭"
+    ],
+    "steps_text": "1、菠菜焯水\n2、鸡蛋炒熟\n3、蒜末爆香后加入菠菜和西兰花，加蚝油、生抽调味",
+    "steps_list": [
+      "1、菠菜焯水\n2、鸡蛋炒熟\n3、蒜末爆香后加入菠菜和西兰花，加蚝油、生抽调味"
+    ],
+    "time": "30分钟",
+    "prep": "适合周末清库存",
+    "sort_order": 6,
+    "weekday_order": 7,
+    "visual": "🥬🥚🍚",
+    "palette": [
+      "#FFEAB5",
+      "#F2B64B",
+      "#8B612B"
+    ],
+    "is_meaty": false,
+    "is_quick": true,
+    "is_rice_bowl": true
+  },
+  {
+    "id": 7,
+    "date": "周日",
+    "weekday": "周日",
+    "meal": "晚饭",
+    "title": "蒸红薯 + 鸡蛋 + 番薯叶小菜",
+    "ingredients_text": "红薯1-2个、鸡蛋1个、番薯叶",
+    "ingredients_list": [
+      "红薯1-2个",
+      "鸡蛋1个",
+      "番薯叶"
+    ],
+    "filter_ingredients": [
+      "红薯",
+      "鸡蛋",
+      "番薯叶"
+    ],
+    "steps_text": "1、红薯蒸熟\n2、鸡蛋煮熟\n3、番薯叶加入蒜末、生抽和少量油拌匀",
+    "steps_list": [
+      "1、红薯蒸熟\n2、鸡蛋煮熟\n3、番薯叶加入蒜末、生抽和少量油拌匀"
+    ],
+    "time": "20分钟",
+    "prep": "可以一次蒸多个红薯备用",
+    "sort_order": 7,
+    "weekday_order": 7,
+    "visual": "🍠🥚🥗",
+    "palette": [
+      "#D4D7FF",
+      "#8FA2FF",
+      "#404B9D"
+    ],
+    "is_meaty": false,
+    "is_quick": true,
+    "is_rice_bowl": false
+  },
+  {
+    "id": 8,
+    "date": "周一",
+    "weekday": "周一",
+    "meal": "晚饭",
+    "title": "土豆丝鸡蛋盖饭",
+    "ingredients_text": "土豆1个、鸡蛋2个、小米辣、大蒜",
+    "ingredients_list": [
+      "土豆1个",
+      "鸡蛋2个",
+      "小米辣",
+      "大蒜"
+    ],
+    "filter_ingredients": [
+      "土豆",
+      "鸡蛋",
+      "小米辣",
+      "大蒜"
+    ],
+    "steps_text": "1、土豆切丝泡水\n2、鸡蛋炒熟\n3、蒜和辣椒爆香后炒土豆丝，加生抽和盐",
+    "steps_list": [
+      "1、土豆切丝泡水\n2、鸡蛋炒熟\n3、蒜和辣椒爆香后炒土豆丝，加生抽和盐"
+    ],
+    "time": "25分钟",
+    "prep": "土豆提前切丝更省时间",
+    "sort_order": 8,
+    "weekday_order": 1,
+    "visual": "🥔🥚🍚",
+    "palette": [
+      "#FFD8E4",
+      "#F59AB3",
+      "#873B58"
+    ],
+    "is_meaty": false,
+    "is_quick": true,
+    "is_rice_bowl": true
+  },
+  {
+    "id": 9,
+    "date": "周二",
+    "weekday": "周二",
+    "meal": "晚饭",
+    "title": "蒜蓉西兰花鸡蛋盖饭",
+    "ingredients_text": "西兰花、鸡蛋2个、大蒜",
+    "ingredients_list": [
+      "西兰花",
+      "鸡蛋2个",
+      "大蒜"
+    ],
+    "filter_ingredients": [
+      "西兰花",
+      "鸡蛋",
+      "大蒜"
+    ],
+    "steps_text": "1、西兰花焯水\n2、鸡蛋炒熟\n3、蒜末爆香后炒西兰花\n4、加蚝油、生抽，混合鸡蛋浇饭",
+    "steps_list": [
+      "1、西兰花焯水\n2、鸡蛋炒熟\n3、蒜末爆香后炒西兰花\n4、加蚝油、生抽，混合鸡蛋浇饭"
+    ],
+    "time": "20分钟",
+    "prep": "",
+    "sort_order": 9,
+    "weekday_order": 2,
+    "visual": "🥦🥚🍚",
+    "palette": [
+      "#E8F1C8",
+      "#A9C96B",
+      "#5B7033"
+    ],
+    "is_meaty": false,
+    "is_quick": true,
+    "is_rice_bowl": true
+  },
+  {
+    "id": 10,
+    "date": "周三",
+    "weekday": "周三",
+    "meal": "晚饭",
+    "title": "红薯焖饭 + 鸡蛋",
+    "ingredients_text": "红薯1个、大米、鸡蛋1个",
+    "ingredients_list": [
+      "红薯1个",
+      "大米",
+      "鸡蛋1个"
+    ],
+    "filter_ingredients": [
+      "红薯",
+      "大米",
+      "鸡蛋"
+    ],
+    "steps_text": "1、红薯切块铺在淘好的米上，加少量油和生抽，用电饭锅焖熟\n2、鸡蛋炒熟",
+    "steps_list": [
+      "1、红薯切块铺在淘好的米上，加少量油和生抽，用电饭锅焖熟\n2、鸡蛋炒熟"
+    ],
+    "time": "40分钟",
+    "prep": "适合消耗红薯",
+    "sort_order": 10,
+    "weekday_order": 3,
+    "visual": "🍠🍚🥚",
+    "palette": [
+      "#F5D8FF",
+      "#D28CF1",
+      "#6F3E7E"
+    ],
+    "is_meaty": false,
+    "is_quick": false,
+    "is_rice_bowl": true
+  },
+  {
+    "id": 11,
+    "date": "周四",
+    "weekday": "周四",
+    "meal": "晚饭",
+    "title": "土豆焖饭",
+    "ingredients_text": "土豆1个、大米、大蒜",
+    "ingredients_list": [
+      "土豆1个",
+      "大米",
+      "大蒜"
+    ],
+    "filter_ingredients": [
+      "土豆",
+      "大米",
+      "大蒜"
+    ],
+    "steps_text": "1、土豆切块，蒜炒香后加入土豆\n2、加生抽、蚝油调味\n3、与米饭一起焖熟",
+    "steps_list": [
+      "1、土豆切块，蒜炒香后加入土豆\n2、加生抽、蚝油调味\n3、与米饭一起焖熟"
+    ],
+    "time": "35分钟",
+    "prep": "一锅完成，少洗锅",
+    "sort_order": 11,
+    "weekday_order": 4,
+    "visual": "🥔🍚✨",
+    "palette": [
+      "#CFE7E7",
+      "#84B8B8",
+      "#3B7070"
+    ],
+    "is_meaty": false,
+    "is_quick": false,
+    "is_rice_bowl": true
+  },
+  {
+    "id": 12,
+    "date": "周五",
+    "weekday": "周五",
+    "meal": "晚饭",
+    "title": "清库存炒饭",
+    "ingredients_text": "剩余鸡蛋、蔬菜、米饭",
+    "ingredients_list": [
+      "剩余鸡蛋",
+      "蔬菜",
+      "米饭"
+    ],
+    "filter_ingredients": [
+      "鸡蛋",
+      "蔬菜",
+      "米饭"
+    ],
+    "steps_text": "1、鸡蛋炒散\n2、加入剩余蔬菜翻炒\n3、加米饭，用生抽调味即可",
+    "steps_list": [
+      "1、鸡蛋炒散\n2、加入剩余蔬菜翻炒\n3、加米饭，用生抽调味即可"
+    ],
+    "time": "20分钟",
+    "prep": "根据剩余食材灵活调整",
+    "sort_order": 12,
+    "weekday_order": 5,
+    "visual": "🍳🍚🥬",
+    "palette": [
+      "#F8C28A",
+      "#E98B5B",
+      "#7C4A34"
+    ],
+    "is_meaty": false,
+    "is_quick": true,
+    "is_rice_bowl": true
   }
 ]
