@@ -414,3 +414,11 @@ h3{margin:0 0 10px;font-size:18px}
   .recommend-title{font-size:20px}
   .detail-title{font-size:24px}
 }
+
+
+/* 首页标题居中 */
+.hero-card h1,
+.hero h1,
+header h1 {
+    text-align: center;
+}
