@@ -7,23 +7,22 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="orb o1"></div><div class="orb o2"></div>
 <div class="app">
 <header class="glass hero">
-<h1>🍚 厨房</h1>
-<p>今天吃什么</p>
+<div class="small">TODAY'S MEAL</div>
+<h1>厨房</h1>
+<p>今天吃什么？</p>
 </header>
 
-<div class="glass menu">
-<button onclick="week()">📅 周计划</button>
-<button onclick="ingredients()">🥬 食材</button>
-<button onclick="fridge()">🧺 冰箱</button>
-<button onclick="cook()">👩‍🍳 开始做饭</button>
+<div class="glass nav">
+<button>📅 周计划</button>
+<button>🥬 食材</button>
+<button>🧺 冰箱</button>
 </div>
 
-<div id="filters"></div>
-<div id="content"></div>
+<main id="app"></main>
 </div>
-
 <script src="app.js"></script>
 </body>
 </html>
